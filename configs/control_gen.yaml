@@ -1,0 +1,39 @@
+pretrained_model_path: "./checkpoints/stable-diffusion-v1-5" # stable diffusion model path
+control_net_path: "./checkpoints/sd-controlnet-canny" # control net canny model path
+input_image_path: "/path/to/sketch/image/" # path to sketch image
+output_dir: "/path/to/results/" # path to output
+
+canny:
+  low_threshold: 100
+  high_threshold: 200
+
+inference:
+  prompts_path: "/path/to/prompts.txt" # path of prompts
+  additional_prompt: "in Russian, fully detailed." # additional prompt
+  negative_prompt: "monocolor, monotony, cartoon style, many texts, pure cloud, pure sea, extra texts, texts, monochrome, flattened, lowres, longbody, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality" # negative prompt
+  width: 512 # generated image width
+  height: 512 # generated image height
+  num_step: 250 # denoising step
+  num_images_per_prompt: 3 # number of generated image for each prompt
+  controlnet_conditioning_scale: 1.0
+  classifer_free_guidance_scale: 12.5
+  image_guidance_scale: 2.0 # negative image level prompt scale
+  bbx_guidance_scale: 0.06 # positive image level prompt scale
+
+ddim_inv:
+  use_ddim_inversion: False
+  num_inv_steps: 50
+  SDEdit_strength: 1.0
+
+seed: # seed for generation
+device: "cuda:0" # cuda device
+# accelerate generation
+mixed_precision: "fp16"
+use_uni_scheduler: False
+use_cpu_offload: True
+use_xformer: False
+
+extra:
+  sample_times: 
+  word_list: ["sign", "billboard", "label", "promotions", "notice", "marquee", "board", "blackboard", "slogan", "whiteboard", "logo"]
+  bbx_num: 4 # ICDAR2013 boudning box type
