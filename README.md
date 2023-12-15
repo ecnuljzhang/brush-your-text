@@ -4,8 +4,8 @@ The source code for "Brush Your Text: Synthesize Any Scene Text on Images via Di
 # Getting Start
 ## Installation
 ```
-git clone
-cd 
+git clone https://github.com/ecnuljzhang/brush-your-text.git
+cd brush-your-text
 ```
 ## Environment
 ```
