@@ -31,9 +31,9 @@ You may prepare the sketch image yourself (as shown in the first row of the imag
 python controlnet_util/synthtext.py
 ```
 Before running the synthesis code, please make the necessary modifications to the "controlnet_util/Textgen/text_cfg.yaml" file, following the instructions provided in the file comments. <br>
-<img src="/pics/teaser.png" width="800px">
+<img src="/pics/sketch_img.png" width="800px">
 ## 2. Prepare Prompts
-You may prepare a txt file of prompts.
+You can create a text file containing prompts, with the file extension ".txt".
 ## 3. Modify Configurations
 Remember to make the necessary modifications to the "configs/control_gen.yaml", following the instructions provided in the file comments.
 ## 4. Run
