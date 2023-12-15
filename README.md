@@ -1,5 +1,5 @@
 # Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model
-The source code for "Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model" by Lingjun Zhang, Xinyuan Chen, Yaohui Wang, Yu Qiao, and Yue Lu. <br>
+The source code for "Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model" by Lingjun Zhang, Xinyuan Chen, Yaohui Wang, Yue Lu and Yu Qiao. <br>
 <img src="/pics/teaser.png" width="800px">
 # Getting Start
 ## Installation
