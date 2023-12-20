@@ -1,4 +1,4 @@
-![image](https://github.com/ecnuljzhang/brush-your-text/assets/82042044/8a4562c7-f775-4193-afac-9f145f5f55fe)# Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model
+# Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model
 The source code for ["Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model"](https://arxiv.org/abs/2312.12232) by Lingjun Zhang, Xinyuan Chen, Yaohui Wang, Yue Lu and Yu Qiao. <br>
 <img src="/pics/teaser.png" width="800px">
 # Getting Start
