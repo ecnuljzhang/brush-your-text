@@ -1,5 +1,5 @@
-# Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model
-The source code for "Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model" by Lingjun Zhang, Xinyuan Chen, Yaohui Wang, Yue Lu and Yu Qiao. <br>
+![image](https://github.com/ecnuljzhang/brush-your-text/assets/82042044/8a4562c7-f775-4193-afac-9f145f5f55fe)# Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model
+The source code for ["Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model"](https://arxiv.org/abs/2312.12232) by Lingjun Zhang, Xinyuan Chen, Yaohui Wang, Yue Lu and Yu Qiao. <br>
 <img src="/pics/teaser.png" width="800px">
 # Getting Start
 ## Installation
@@ -24,7 +24,7 @@ Diff-text
 |--- ...
 ```
 
-# How to run
+# How to Run
 ## 1. Prepare Sketch Images
 You may prepare the sketch image yourself (as shown in the first row of the image below) along with the corresponding bounding box text file (please use the ICDAR2013 or ICDAR2015 dataset annotation format), or utilize our sketch image synthesis code. The synthesis code can be executed with the following command:
 ```
@@ -39,4 +39,17 @@ Remember to make the necessary modifications to the "configs/control_gen.yaml", 
 ## 4. Run
 ```
 python predict.py
+```
+
+# Citation
+If you find this code useful in your research, please consider citing:
+```
+@article{zhang2023brush,
+      title={Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model}, 
+      author={Lingjun Zhang, Xinyuan Chen, Yaohui Wang, Yue Lu, Yu Qiao},
+      year={2023},
+      eprint={2312.12232},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
