@@ -2,6 +2,7 @@
 Lingjun Zhang, [Xinyuan Chen](https://scholar.google.com/citations?user=3fWSC8YAAAAJ&hl=zh-CN), [Yaohui Wang](https://wyhsirius.github.io/), [Yue Lu](https://scholar.google.com/citations?user=_A_H0V4AAAAJ&hl=zh-CN) and [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=en)
 
 This is the official PyTorch implementation of the AAAI 2024 paper ["Brush Your Text: Synthesize Any Scene Text on Images via Diffusion Model"](https://arxiv.org/abs/2312.12232). <br>
+
 <img src="/pics/teaser.png" width="800px">
 # Getting Start
 ## Installation
