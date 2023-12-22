@@ -1,6 +1,6 @@
 cfg:
   sample_num: 100 # number of generated sketch image
-  result_path: "/path/to/result_dir/" path to result dir
+  result_path: "/path/to/result_dir/" # path to result dir
   # read_from_prompt: True
   # prompt_dir: "/path/to/prompt.txt"
   bg:
